@@ -1,0 +1,13 @@
+﻿<div class="app-container">
+    <h2>ng-js-questions</h2>
+    Some Interesting javascript Questions
+    <md-content>
+        <md-list class="list-border" layout-margin>
+            <md-list-item ng-repeat="item in vm.allItems">
+                <p ui-sref="item({itemId:item.itemId, name:item.name})"> {{item.name}} </p>
+                <md-divider ng-if="!$last"></md-divider>
+            </md-list-item>
+        </md-list>
+    </md-content>
+</div>
+

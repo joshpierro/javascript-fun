@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html ng-app="angularApp"
+      xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>ng-javascript-questions</title>
+
+    <!--CSS-->
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/angular_material/1.1.1/angular-material.min.css">
+    <!--custom CSS-->
+    <link href="css/site.css" rel="stylesheet" />
+
+    <!--js-->
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular-sanitize.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular-animate.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular-aria.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angular_material/1.1.1/angular-material.min.js"></script>
+    <script src="app/scripts/libs/angular-ui-router.js"></script>
+
+    <!--custom-->
+    <script src="app/Init/init.js"></script>
+    <script src="app/services/app.filter.js"></script>
+    <script src="app/services/appData.factory.js"></script>
+    <script src="app/services/app.service.js"></script>
+    <script src="app/list.js"></script>
+    <script src="app/item.js"></script>
+
+    <meta name="viewport" content="initial-scale=1" />
+    
+</head>
+
+<body class="appContainer">
+    <div ui-view></div>
+</body>
+
+</html>

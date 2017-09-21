@@ -1,0 +1,21 @@
+﻿<div class="app-container">
+    <md-card md-theme="{{ showDarkTheme ? 'dark-grey' : 'default' }}" md-theme-watch>
+        <md-card-title>
+            <md-card-title-text>
+                <span class="md-headline">{{vm.selectedItem.name}}</span>
+                <span class="md-subhead">See the console for some cool stuff (and the answer)</span>
+            </md-card-title-text>
+        </md-card-title>
+        <md-card-content>
+            <p>
+                <div ng-include="'app/templates/fibonacci.html'"></div>
+            </p>
+        </md-card-content>
+        <md-card-actions layout="row" layout-align="end center">
+            <md-button ng-href="/#/home">Back</md-button>
+        </md-card-actions>
+    </md-card>
+</div>
+
+
+

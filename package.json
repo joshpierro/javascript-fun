@@ -1,0 +1,24 @@
+{
+  "name": "js-puzzles",
+  "version": "1.0.0",
+  "description": "Some puzzles in js",
+  "main": "index.js",
+  "devDependencies": {
+    "http-server": "^0.9.0"
+  },
+  "scripts": {
+    "test": "echo",
+    "prestart": "npm install",
+    "start": "http-server -a localhost -p 8000 -c-1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joshpierro/javascript-fun.git"
+  },
+  "author": "Josh D Pierro",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joshpierro/javascript-fun.git/issues"
+  },
+  "homepage": "https://github.com/joshpierro/javascript-fun.git#readme"
+}

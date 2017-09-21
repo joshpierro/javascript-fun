@@ -1,0 +1,16 @@
+<div ng-if="vm.question.label">
+    <h4>
+        {{vm.question.label}}
+    </h4>
+</div>
+<div ng-if="vm.question.getNumberInput" layout="row">
+    <md-input-container flex="50" layout="row">
+        <label>{{vm.question.numberInputLabel}}</label>
+        <input type="number"
+               ng-model="vm.param1">
+        </input>
+    </md-input-container>
+    <md-button ng-click="vm.submit()">
+        submit
+    </md-button>
+</div>
