@@ -1,3 +1,3 @@
 # javascript-fun
 
-some puzzles implemented in javascript
+some puzzles implemented in javascript...pure javascript
