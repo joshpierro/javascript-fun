@@ -3,10 +3,11 @@
         {{vm.question.label}}
     </h4>
 </div>
-<div ng-if="vm.question.numberInputLabel" layout="row">
-    <md-input-container flex="50" layout="row">
-        <label>{{vm.question.numberInputLabel}}</label>
-        <input type="number"
+<div ng-if="vm.question.textInputLabel"
+     layout="row">
+    <md-input-container flex="70" layout="row">
+        <label>{{vm.question.textInputLabel}}</label>
+        <input type="text"
                ng-model="vm.param1">
         </input>
     </md-input-container>
@@ -14,3 +15,4 @@
         submit
     </md-button>
 </div>
+

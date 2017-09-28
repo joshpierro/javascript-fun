@@ -26,7 +26,6 @@
             if(vm.question.fnExecute===true){
                 vm.question.function();
             }
-
         };
 
        vm.submit = function(){

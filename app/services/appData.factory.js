@@ -50,6 +50,38 @@
                 {
                     itemId: 3,
                     name: 'Count the wizards'
+                },
+                {
+                    itemId: 4,
+                    name: 'Count the Letters'
+                },
+                {
+                    itemId: 5,
+                    name: 'Implement parseInt'
+                },
+                {
+                    itemId: 6,
+                    name: 'Know thyself'
+                },
+                {
+                    itemId:7,
+                    name:'Reverse Yourself'
+                },
+                {
+                    itemId:8,
+                    name:'Shift The Wizard'
+                },
+                {
+                    itemId:9,
+                    name:'Base Six'
+                },
+                {
+                    itemId:10,
+                    name:'Upper Case them'
+                },
+                {
+                    itemId:11,
+                    name:'Find the longest word'
                 }
             ];
 
